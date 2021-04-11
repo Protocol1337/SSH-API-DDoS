@@ -31,7 +31,7 @@ $host = $_GET['host'];
 $port = intval($_GET['port']);
 $time = intval($_GET['time']);
 $method = $_GET['method'];
-$array = array("","","","","","","","","","","","","","T","","","","");
+$array = array("","","","","","","","","","","","","","T","","","",""); // Add your methods here
 $ray = array("key", "", ""); //keys
 if (!empty($key)){
 }else{
